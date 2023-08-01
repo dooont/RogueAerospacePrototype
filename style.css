@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Mukta, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("assets/hero-image.JPG");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .rogue-aerospace-title-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+  }
+  
+  .hero-text {
+    text-align: left;
+    color: white;
+    margin: 5%;
+    font-family: Mukta, sans-serif;
+  }
+  
+  .rogue-aerospace-quote {
+    margin: -10% 10% 0;
+  }
+  
+  .jefferson-hu-credit {
+    margin: 1% 20%;
+    text-align: right;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    font-family: Mukta, sans-serif;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  #our-story {
+    padding: 5%;
+    /* background-color: rgba(0, 0, 0, .4); */
+  }
+  
+  .item-img {
+    height: 420px;
+    width: auto;
+    max-height: 420px;
+  }
+  
+  #rogue-aerospace-carousel {
+    /* width: 60%; */
+    float: left;
+    margin: 5px;
+  }
